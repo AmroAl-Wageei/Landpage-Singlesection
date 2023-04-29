@@ -163,6 +163,15 @@ body {
     width: 100%;
   }
 }
+@media only screen and (max-width: 1287px) {
+  .hero-text p {
+    font-size: 15px;
+    padding-right: 100px;
+  }
+  .social {
+    padding-right: 100px;
+  }
+}
 @media only screen and (max-width: 1200px) {
   .hero-text h1 {
     font-size: 26px;
