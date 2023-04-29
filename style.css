@@ -183,4 +183,12 @@ body {
     align-items: center;
     height: 90%;
   }
+  .social a {
+    border: 2px solid var(--White);
+    padding: 7px;
+    padding-inline: 10px;
+  }
+  .social a:not(:first-child) {
+    margin-left: 0.3rem;
+  }
 }
